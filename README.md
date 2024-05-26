@@ -1,8 +1,2 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# CARFARM
+Carfarm is a platform that allows you to buy, rent, or sell cars easily, quickly, and safely. All cars at Carfarm are inspected by mechanical professionals before being sold or rented to guarantee customer satisfaction and confidence. When renting, the renter and the car customer must comply with Carfarm rules in order to provide and receive excellent service. All prices of the vehicles to buy are determined on different factors such as using very reliable platforms such as Carfax, thus providing fair prices for the client and the seller or renter.
