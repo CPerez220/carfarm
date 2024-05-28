@@ -1,0 +1,46 @@
+.introContainer {
+  position: relative;
+  text-align: center;
+}
+
+.IntroImage {
+  width: 100%;
+  height: 85vh;
+}
+
+.introText {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.introHeader {
+  color: white;
+  font-size: xx-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+}
+
+.introHero {
+  color: whitesmoke;
+  font-size: x-large;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight:lighter;
+}
+
+.introButton {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: darkgreen;
+  color: white;
+  padding: 1%;
+}
+
+.btn-darkgreen {
+  background-color: darkgreen;
+  padding: 2%;
+  color: white;
+}

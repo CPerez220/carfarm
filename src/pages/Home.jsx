@@ -1,7 +1,11 @@
+import Header from "../components/Header"
+import HomeBody from "../components/HomeBody"
+
 const Home = () => {
   return (
     <>
-    <h1>Hola</h1>
+    <Header/>
+    <HomeBody/>
     </>
   )
 }
