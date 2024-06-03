@@ -1,6 +1,8 @@
 import { Container, Row, Col } from 'react-bootstrap';
 import CardComponent from './CardComponent';
-import Card1 from "../images/car-family.png"
+import Card1 from "../images/family-car.png"
+import Card2 from "../images/selling-car.png"
+import Card3 from "../images/honda-rental.png"
 
 const Cards = () => {
   const cardsData = [
@@ -10,12 +12,12 @@ const Cards = () => {
       content: 'Pre-qualify with no impact to your credit',
     },
     {
-      imageUrl: Card1,
+      imageUrl: Card2,
       title: 'Sell or trade your car',
       content: 'Get a estimated offer by Carfarm AI',
     },
     {
-      imageUrl: Card1,
+      imageUrl: Card3,
       title: 'Rent or be a renter',
       content: 'Enjoy your car',
     },
@@ -23,6 +25,8 @@ const Cards = () => {
 
   return (
     <>
+    <div className='cards'>
+    <h1 className='title'>EXPLORE CARFARM</h1>
     <Container fluid className="my-4">
       <Row className="justify-content-center">
         {cardsData.map((card, index) => (
@@ -32,6 +36,7 @@ const Cards = () => {
         ))}
       </Row>
     </Container>
+    </div>
     </>
   )
 }

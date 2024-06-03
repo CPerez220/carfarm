@@ -44,3 +44,74 @@
   padding: 2%;
   color: white;
 }
+
+.title {
+  text-align: center;
+  margin-top: 5%;
+  color: darkgreen;
+  margin-bottom: 5%;
+}
+
+.cards {
+  height: 100vh;
+  margin: 5%;
+}
+
+.research {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  margin: 5%;
+}
+
+.left {
+  width: 50%;
+  padding: 0 20px;
+  margin-top: 40px;
+}
+
+.right {
+  width: 50%;
+}
+
+.subtitle {
+  font-size: x-large;
+  text-align: center; 
+}
+
+.cardsResearch {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.researchCard {
+  width: calc(33.33% - 2%);
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.researchCard:hover {
+  transform: translateY(-5px);
+}
+
+.researchCard:hover .card-img-top {
+  transform: scale(1.1);
+}
+
+.researchCard .card-body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.researchCard .card-body .btn {
+  margin-top: auto;
+}
+
+.btn-darkgreen {
+  background-color: darkgreen;
+}
