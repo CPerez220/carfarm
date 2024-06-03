@@ -115,3 +115,22 @@
 .btn-darkgreen {
   background-color: darkgreen;
 }
+
+.footer-container {
+  height: 50vh;
+  display: flex;
+  justify-content: space-between;
+  background-color: darkgreen;
+  color: white;
+  padding: 20px;
+}
+
+.footer-column {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.footer-column h4 {
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
